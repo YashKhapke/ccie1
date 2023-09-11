@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Management System</title>
+    <style>
+        /* Basic styling for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Header styling */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+
+        /* Container styling */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            margin-top: 2rem;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 0.5rem;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: #fff;
+        }
+
+        /* Button styling */
+        .btn {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Employee Management System</h1>
+    </header>
+    <div class="container">
+        <h2>Employee List</h2>
+        <table>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Actions</th>
+            </tr>
+         <tr>
+    <td>1</td>
+    <td>John Doe</td>
+    <td>Software Developer</td>
+    <td>
+        <a href="#" class="btn">Edit</a>
+        <a href="#" class="btn">Delete</a>
+    </td>
+</tr>
+
+<!-- Add more employees here -->
+<tr>
+    <td>2</td>
+    <td>Jane Smith</td>
+    <td>HR Manager</td>
+    <td>
+        <a href="#" class="btn">Edit</a>
+        <a href="#" class="btn">Delete</a>
+    </td>
+</tr>
+
+<tr>
+    <td>3</td>
+    <td>Michael Johnson</td>
+    <td>Marketing Specialist</td>
+    <td>
+        <a href="#" class="btn">Edit</a>
+        <a href="#" class="btn">Delete</a>
+    </td>
+</tr>
+            <!-- Add more employee rows here -->
+        </table>
+        <a href="#" class="btn" style="margin-top: 1rem;">Add Employee</a>
+    </div>
+</body>
+</html>
